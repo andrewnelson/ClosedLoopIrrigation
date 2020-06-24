@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "inphi44Jvu+0sAmtVl8TaEJOW0rxeq8jBn5J+G83AAhxSuAKZOHG34I5hYmxlzWApmVyY+iu14Hg933WiI3Tbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\ClosedLoopIrrigation\\ClosedLoopIrrigate\\DecisionFramework\\DecisionFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
