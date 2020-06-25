@@ -16,3 +16,6 @@ C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFram
 C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\obj\Debug\netcoreapp3.1\DecisionFramework.csproj.CoreCompileInputs.cache
 C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\obj\Debug\netcoreapp3.1\DecisionFramework.dll
 C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\obj\Debug\netcoreapp3.1\DecisionFramework.pdb
+C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\bin\Debug\netcoreapp3.1\Services.Interfaces.dll
+C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\bin\Debug\netcoreapp3.1\Services.Interfaces.pdb
+C:\Users\andre\source\repos\ClosedLoopIrrigation\ClosedLoopIrrigate\DecisionFramework\obj\Debug\netcoreapp3.1\DecisionFramework.csproj.CopyComplete

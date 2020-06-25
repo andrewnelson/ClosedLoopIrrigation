@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "DecisionFramework/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.5"
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
+          "Services.Interfaces": "1.0.0"
         },
         "runtime": {
           "DecisionFramework.dll": {}
@@ -20,6 +21,11 @@
             "assemblyVersion": "3.1.5.0",
             "fileVersion": "3.100.520.27009"
           }
+        }
+      },
+      "Services.Interfaces/1.0.0": {
+        "runtime": {
+          "Services.Interfaces.dll": {}
         }
       }
     }
@@ -36,6 +42,11 @@
       "sha512": "sha512-ZvwowjRSWXewdPI+whPFXgwF4Qme6Q9KV9SCPEITSGiqHLArct7q5hTBtTzj3GPsVLjTqehvTg6Bd/EQk9JS0A==",
       "path": "microsoft.extensions.logging.abstractions/3.1.5",
       "hashPath": "microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512"
+    },
+    "Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

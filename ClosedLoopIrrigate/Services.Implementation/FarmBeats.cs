@@ -13,7 +13,7 @@ namespace Services.Implementation
         public double GetMoisture(string stationName)
         {
             var sensorData = GetData(stationName);
-            return sensorData.compChannel5;
+            return sensorData.compChannel3;
         }
 
         public double GetTemperature(string stationName)
@@ -30,7 +30,7 @@ namespace Services.Implementation
                 .GetJsonAsync<SensorBox>()
                 .Result
                 .sensorBoxData
-                .OrderBy(s => s.farmTimeStampLocal)
+                .OrderByDescending(s => s.farmTimeStampLocal)
                 .First();
         }
     }

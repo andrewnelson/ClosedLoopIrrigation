@@ -26,8 +26,8 @@ namespace ClosedLoopIrrigate
             //Create the connection to the irrigation system
             var irrigationControl = ServiceFactory.GetIrrigationControl(apiToken, "location");
 
-            IrrigationDecider.Irrigate(sensorStations.GetMoisture("F037"),
-                sensorStations.GetTemperature("F037"), (int i)=> irrigationControl.RunIrrigation(i), log);
+            IrrigationDecider.Irrigate(sensorStations.GetMoisture("F036"),
+                sensorStations.GetTemperature("F036"), (int i)=> irrigationControl.RunIrrigation(i), log);
             return new OkObjectResult("Irrigation Decision Successful");
         }
     }

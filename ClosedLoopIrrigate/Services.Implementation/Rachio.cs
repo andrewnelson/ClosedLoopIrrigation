@@ -24,7 +24,7 @@ namespace Services.Implementation
                 .AppendPathSegment("zone")
                 .AppendPathSegment("start")
                 .WithOAuthBearerToken(_apiKey)
-                .PutJsonAsync(new { id = "6110cb25-a29d-4d30-87b2-01acffdd0541", duration = 60}).Result;
+                .PutJsonAsync(new { id = "6110cb25-a29d-4d30-87b2-01acffdd0541", duration = seconds}).Result;
         }
 
      

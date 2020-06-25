@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
+      },
+      "Services.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Services.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -27,11 +37,17 @@
         "microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
+    },
+    "Services.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Services.Interfaces/Services.Interfaces.csproj",
+      "msbuildProject": "../Services.Interfaces/Services.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Extensions.Logging.Abstractions >= 3.1.5"
+      "Microsoft.Extensions.Logging.Abstractions >= 3.1.5",
+      "Services.Interfaces >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,7 +75,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\andre\\source\\repos\\ClosedLoopIrrigation\\ClosedLoopIrrigate\\Services.Interfaces\\Services.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\andre\\source\\repos\\ClosedLoopIrrigation\\ClosedLoopIrrigate\\Services.Interfaces\\Services.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

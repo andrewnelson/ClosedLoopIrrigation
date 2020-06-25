@@ -14,7 +14,7 @@ namespace DecisionFramework
         /// <param name="turnOffIrrigation">An Action that will turn off the irrigation system</param>
         public static void Irrigate(double soilMoisture, double temperature, Action<int> turnOnIrrigaton, ILogger log)
         {
-            if (soilMoisture < 30 && temperature > 5)
+            if (soilMoisture < 55 && temperature > 5)
             {
                 log.LogInformation("Decision to Irrigate");
                 var temperatureAdjustment = 1 + (temperature / 100);
