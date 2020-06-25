@@ -19,7 +19,7 @@ namespace DecisionFramework
                 log.LogInformation("Decision to Irrigate");
                 var temperatureAdjustment = 1 + (temperature / 100);
                 log.LogInformation($"Irrigation Temperature Adjustment: {temperatureAdjustment}");
-                var irrigateDuration = (60 - soilMoisture) * temperatureAdjustment * 60;
+                var irrigateDuration = (60 - soilMoisture) * temperatureAdjustment * 75;
                 
                 log.LogInformation($"Irrigation Duration: {irrigateDuration}");
                 turnOnIrrigaton(Convert.ToInt32(irrigateDuration));
