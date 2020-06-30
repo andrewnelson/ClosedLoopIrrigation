@@ -1,7 +1,7 @@
 # ClosedLoopIrrigation
 FarmBeats Azure Function to make Irrigation Decisions in an orchard setting.
 
-This Proof of Concept has the following components:
+This Proof of Concept has the following components in the Azure Function:
 - A connection to the Farm Beats API to get sensor values
 - A simple and extensible decision framework on what to do with sensor values(and weather forecast information in the future)
 - A API call to an irrigation controller to irrigate the orchard (Rachio in my case, but could be any that implements the IIrrigationControl interface)
