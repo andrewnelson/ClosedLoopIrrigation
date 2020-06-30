@@ -1,5 +1,5 @@
 # ClosedLoopIrrigation
-FarmBeats Azure Function to make Irrigation Decisions in an orchard setting.
+FarmBeats Azure Function to make Irrigation Decisions in an orchard setting without need for user input.
 
 This Proof of Concept has the following components in the Azure Function:
 - A connection to the Farm Beats API to get sensor values
